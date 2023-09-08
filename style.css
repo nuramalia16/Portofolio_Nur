@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.logo {
+    color: red;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: red;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+.image {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    transform: rotateY(180deg);
+}
+.image img {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    right: 50%;
+    transform: translate(20%);
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: black;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#about {
+    width: 100% ;
+    padding:100px 0 ;
+    background-color: grey;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text {
+    width: 600px;
+}
+.about-text h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+#skill {
+    background: grey;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card {
+    height: 300px;
+    width: 300px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 2px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.skill-bar p {
+    text-align: left;
+}
+.skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: white;
+}
+.python {
+    width: 30%;
+    background-color: red;
+
+}
+.java {
+    width: 50%;
+    background-color: red;
+}
+.html {
+    width: 40%;
+    background-color: red;
+}
+.css {
+    width: 30%;
+    background-color: red;
+    text-align: center;
+}
+#contact-me {
+    width: 100%;
+    padding: 100px 0;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2 {
+    color:black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box {
+    color: black;   
+}
+.contact-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.contact h4 {
+    color: red;
+    padding-bottom: 10px;
+}
+.contact p {
+    font-size: 18px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+}
+a:hover {
+    cursor: pointer;
+    color: red;
+}
+.icon {
+    width: 50px;
+    background-color: black;
+    padding: 1em;
+    border-radius: 50%;
+
+}
+
